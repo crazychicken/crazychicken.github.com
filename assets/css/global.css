@@ -1,0 +1,335 @@
+body {
+	width:1360px;
+	margin: 0 auto;
+	padding:0 auto;
+	font: normal 13px arial,sans-serif,'Marker Felt';
+	color:#671d18;
+}
+#header {
+	background:url('../images/bg_hd_ft.jpg') left top no-repeat;
+	width:1360px;
+	height:800px;
+	position:relative;
+}
+	.logo_hd a{
+	position:absolute;
+	left:205px;
+	top:25px;
+	float:left;
+	background:url('../images/bg.png') right top no-repeat;
+	height:50px;
+	width:130px;
+}
+		.logo_hd a:hover{
+		background:url('../images/bg.png') right -50px no-repeat;
+}
+	.clgt{
+		margin-right:395px;
+		margin-top:315px;
+		float:right;
+		position:relative;
+}
+		.clgt .c,.clgt .l, .clgt .g, .clgt .t {
+			float:left;
+			position:relative;
+		}
+		.clgt a {
+			float:left;
+			height:104px;
+		}
+		.clgt .c a{
+			background:url('../images/bg.png') -348px -104px no-repeat;
+			margin-right:50px;
+			width:90px;
+		}
+			.clgt .c a:hover{
+				background:url('../images/bg.png') -348px top no-repeat;
+			}
+		.clgt .l a{
+			background:url('../images/bg.png') -537px -104px no-repeat;
+			position:absolute;
+			left:-53px;
+			top:-10px;
+			z-index:10;
+			width:80px;
+		}
+			.clgt .l a:hover{
+				background:url('../images/bg.png') -537px top no-repeat;
+			}
+		.clgt .g a{
+			background:url('../images/bg.png') -437px -104px no-repeat;
+			margin-right:-5px;
+			width:100px;
+		}
+			.clgt .g a:hover{
+				background:url('../images/bg.png') -437px top no-repeat;
+			}
+		.clgt .t a{
+			background:url('../images/bg.png') -618px -104px no-repeat;
+			width:84px;
+		}
+			.clgt .t a:hover{
+				background:url('../images/bg.png') -618px top no-repeat;
+			}
+				.clgt .c span,.clgt .l span,.clgt .g span,.clgt .t span{
+					position:absolute;
+					top:-50px;
+					left:0px;
+					display:none;
+					width:63px;
+					height:42px;
+					float:left;
+				}
+				.clgt .c span {
+					background:url('../images/bg.png') -702px top no-repeat;
+				}
+				.clgt .l span {
+					background:url('../images/bg.png') -702px -42px no-repeat;
+					left:-30px;
+				}
+				.clgt .g span {
+					top:-40px;
+					left:50px;
+					background:url('../images/bg.png') -702px -84px no-repeat;
+				}
+				.clgt .t span {
+					top:-40px;
+					left:40px;
+					background:url('../images/bg.png') -702px -126px no-repeat;
+				}				
+	/* end clgt */
+	.navigator{
+		position:absolute;
+		top:430px;
+		right:250px;
+	}
+		.navigator ul li{
+			float:left;
+			margin-left:20px;
+		}
+		.navigator ul li a{
+			width:116px;
+			height:50px;
+			float:left;
+		}
+		.navigator ul li a.index{
+			background:url('../images/bg.png') -231px -51px no-repeat;
+		}
+			.navigator ul li a.index:hover{
+				background:url('../images/bg.png') -231px top no-repeat;
+			}
+		.navigator ul li a.member{
+			background:url('../images/bg.png') -116px -51px no-repeat;
+		}
+			.navigator ul li a.member:hover{
+				background:url('../images/bg.png') -116px top no-repeat;
+			}
+		.navigator ul li a.about{
+			background:url('../images/bg.png') left -51px no-repeat;
+			margin-top:-10px;
+		}
+			.navigator ul li a.about:hover{
+			background:url('../images/bg.png') left top no-repeat;
+		}
+
+/* end header */
+#main {
+	background:url('../images/bg_main.jpg') repeat-y;
+}
+	.wrapper_member{
+		background:url('../images/songbien.png') no-repeat;
+		position:relative;
+		z-index:10;
+		height:500px;
+	}
+		.wrapper_member .member_left{
+			position:absolute;
+			left:150px;
+			top:50px;
+		}
+			.wrapper_member .member_left button{
+				background:url('../images/member/member.png') no-repeat;
+				height:150px;
+				width:150px;
+				float:left;
+				border:none medium;
+				cursor:pointer;
+			}
+			.wrapper_member .member_left span{
+				background:url('../images/bg.png') -831px top no-repeat;
+				height:50px;
+				width:125px;
+				float:left;
+				margin-top:-30px;
+				display:none;
+			}
+		.wrapper_member .member_right{
+			position:absolute;
+			right:80px;
+			top:50px;
+		}
+			.wrapper_member .member_right button{
+				background:url('../images/member/member.png') no-repeat;
+				height:150px;
+				width:150px;
+				float:right;
+				border:none medium;
+				cursor:pointer;
+			}
+			.wrapper_member .member_right span{
+				background:url('../images/bg.png') -831px -50px no-repeat;
+				height:80px;
+				width:125px;
+				float:left;
+				margin-top:-30px;
+				display:none;
+			}
+				.wrapper_member .member_right button:hover,.wrapper_member .member_left button:hover {
+					background:url('../images/member/member_hv.png') no-repeat;
+					
+				}
+			
+		.content_member{
+			position:relative;
+			margin-left:350px;
+			background:url('../images/bg.png') right -397px no-repeat;
+			width:787px;
+			height:500px;
+			z-index:10;
+			display:none;
+		}
+			.content_member .close{
+				position:absolute;
+				right:140px;
+				top:30px;
+			}
+				.content_member .close button{
+					background:url('../images/bg.png') -765px top no-repeat;
+					height:34px;
+					width:34px;
+					float:left;
+					border:none medium;
+				}
+				.content_member .close span.name_close{
+					position:absolute;
+					background:url('../images/bg.png') -765px -34px no-repeat;
+					height:41px;
+					width:67px;
+					left:35px;
+					top:-40px;
+					z-index:10;
+					display:none;
+				}
+			.content_member h3{
+				font-size:20px;
+				border-bottom:1px solid #671d18;
+				padding-bottom:7px;
+				margin-bottom:7px;
+			}
+			.content_member .profile{
+			 	margin:100px 0px 0px 210px;
+			 	width:450px;
+			 	float:left;
+			}
+			.content_member .project{
+				margin:20px 0px 0px 110px;
+				width:600px;
+				float:left;
+			}
+				.content_member .project ul{
+					margin-top:15px;
+				}
+					.content_member .project ul li{
+						float:left;
+						margin-right:10px;
+					}
+			.content_member .bg_member_left{
+				position:absolute;
+				left:-90px;
+				bottom:220px;
+				height:84px;
+				width:118px;
+				float:left;
+				background:url('../images/bg.png') -956px -84px no-repeat;
+			}
+			.content_member .bg_member_right{
+				position:absolute;
+				right:-90px;
+				bottom:220px;
+				height:82px;
+				width:116px;
+				float:left;
+				background:url('../images/bg.png') -956px top no-repeat;
+			}
+/* end main */
+#footer {
+	background:url('../images/bg_hd_ft.jpg') left bottom no-repeat;
+	height:800px;
+	width:1360px;
+	float:left;
+	position:relative;
+}
+	.logo_ft a{
+		position:absolute;
+		left:160px;
+		bottom:25px;
+		float:left;
+		background:url('../images/bg.png') right top no-repeat;
+		height:50px;
+		width:130px;
+	}
+		.logo_ft a:hover{
+		background:url('../images/bg.png') right -50px no-repeat;
+		
+		}
+	.contact{
+		margin-top:500px;
+		margin-right:100px;
+		float:right;
+		width:900px;
+	}
+		.contact button.bt_contact{
+			background:url('../images/bg.png') left -236px no-repeat;
+			height:105px;
+			width:289px;
+			border:none;
+			float:right;
+			cursor:pointer;
+			/*float:left;*/
+		}
+			.contact button.bt_contact:hover{
+				margin-top:1px;
+			}
+		.contact .address{
+			background:url('../images/bg.png') -289px -236px no-repeat;
+			height:161px;
+			width:480px;
+			float:right;
+			display:none;
+		}
+			.contact .address .content{
+				margin:30px 0px 0px 70px;
+			}
+				.contact .address .content p{
+					margin-bottom:10px;
+				}
+	.btn_ft{
+		position:absolute;
+		right:100px;
+		bottom:15px;
+	}
+		.btn_ft button{
+			background:url('../images/bg.png') left -101px no-repeat;
+			float:left;
+			height:68px;
+			width:80px;
+			border:none medium;
+			cursor:pointer;
+		}
+			.btn_ft button:hover{
+			background:url('../images/bg.png') left -169px no-repeat;
+			height:68px;
+			width:80px;
+			float:left;
+		}
+/* end footer */
